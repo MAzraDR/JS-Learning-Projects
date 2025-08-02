@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Temperature Converter</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<form action="" id="converter-form">
+				<h1>Temperature Converter</h1>
+				<p
+					>Enter a temperature in any of the fields below to convert
+					it to the other </p
+				><div class="input-form">
+					<div class="celcius">
+						<label for="celsius">Celsius:</label>
+						<input
+							onchange="convert(event)"
+							type="text"
+							id="celsius"
+							name="celsius"
+							placeholder="Enter Celsius" />
+					</div>
+
+					<div class="fahrenheit">
+						<label for="fahrenheit">Fahrenheit:</label>
+						<input
+							onchange="convert(event)"
+							type="text"
+							id="fahrenheit"
+							name="fahrenheit"
+							placeholder="Enter Fahrenheit" />
+					</div>
+
+					<div class="kelvin">
+						<label for="kelvin">Kelvin:</label>
+						<input
+							onchange="convert(event)"
+							type="text"
+							id="kelvin"
+							name="kelvin"
+							placeholder="Enter kelvin" />
+					</div>
+
+					<button type="submit">Convert</button>
+				</div>
+			</form>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>

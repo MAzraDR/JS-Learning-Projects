@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tip Calculator</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="card">
+			<h1>Tip Calculator</h1>
+			<div class="card-body">
+				<p
+					>Enter the bill amount and tip percentage to calculate the
+					total.</p
+				>
+				<form id="calcform" action="">
+					<div class="bill">
+						<label for="billAmount">Bill Amount:</label>
+						<input
+							type="number"
+							name="billAmount"
+							id="billAmount" />
+					</div>
+					<div class="tip">
+						<label for="tippercentage">Tip percentage:</label>
+						<input
+							type="number"
+							name="tippercentage"
+							id="tippercentage" />
+					</div>
+
+					<button type="submit" id="caclButton">Calculate</button>
+					<p class="total">Total : </p>
+				</form>
+			</div>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>

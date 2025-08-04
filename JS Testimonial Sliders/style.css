@@ -1,0 +1,35 @@
+body {
+	font-family: cursive;
+	background-color: #f0f0f0;
+	color: #333;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.wrapper {
+	width: 500px;
+	height: 150px;
+	background-color: slateblue;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	position: relative;
+	border-radius: 20px;    
+}
+
+.wrapper .user-img img{    
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -50px;
+}
+
+.wrapper .text {
+    padding-top: 10px;
+}
